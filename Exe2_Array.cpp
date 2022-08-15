@@ -3,7 +3,7 @@ bool checkPrimeNumber(int z){
 	if(z<2){
 		return false;
 	}
-	for(int i=2;i<z/2;i++){
+	for(int i=2;i<=z/2;i++){
 		if(z%i==0){
 			return false;
 		}
