@@ -24,11 +24,10 @@ int main(){
 	for(int i=0;i<n;i++){
 		if(checkPrimeNumber(ar[i])){
 			printf("Prime number: %d\n",ar[i]);
-		}else{
 			x++;
 		}
 	}
-	if(x!=0){
+	if(x==0){
 		printf("No prime number");
 	}
 }
